@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_new/features/state_provider/view/slider_screen.dart';
+
+import 'package:flutter_riverpod_new/features/state_notifier_provider/view/todo_screen.dart';
 
 void main() {
   runApp(
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SliderScreen(),
+      home: const TodoScreen(),
     );
   }
 }
