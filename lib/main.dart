@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_new/features/simple_provider/view/simple_provider_screen.dart';
+import 'package:flutter_riverpod_new/features/state_provider/view/counter_screen.dart';
 
 void main() {
   runApp(
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const SimpleProviderScreen(),
+      home: const CounterScreen(),
     );
   }
 }
