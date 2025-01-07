@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_new/features/state_notifier_provider/provider/search_provider.dart';
+import 'package:flutter_riverpod_new/features/state_notifier_provider/todo_app/provider/search_provider.dart';
 
 class SearchScreen extends ConsumerWidget {
   const SearchScreen({super.key});

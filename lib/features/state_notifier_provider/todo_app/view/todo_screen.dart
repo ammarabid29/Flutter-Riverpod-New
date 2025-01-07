@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'package:flutter_riverpod_new/features/state_notifier_provider/provider/item_provider.dart';
+import 'package:flutter_riverpod_new/features/state_notifier_provider/todo_app/provider/item_provider.dart';
 
 class TodoScreen extends ConsumerWidget {
   const TodoScreen({super.key});
