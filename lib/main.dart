@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_new/features/state_notifier_provider/favorite_app/view/favorite_screen.dart';
+import 'package:flutter_riverpod_new/features/future_provider/view/future_provider_screen.dart';
 
 void main() {
   runApp(
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FavoriteScreen(),
+      home: const FutureProviderScreen(),
     );
   }
 }
