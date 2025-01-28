@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import 'package:flutter_riverpod_new/features/stream_provider/view/stream_provider_screen.dart';
+import 'package:flutter_riverpod_new/features/api_future_provider/presentation/view/api_view.dart';
 
 void main() {
   runApp(
@@ -23,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const StreamProviderScreen(),
+      home: const ApiView(),
     );
   }
 }
