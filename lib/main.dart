@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_new/features/api_future_provider/presentation/view/api_view.dart';
+import 'package:flutter_riverpod_new/features/family_class/view/family_screen.dart';
 
 void main() {
   runApp(
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ApiView(),
+      home: const FamilyScreen(),
     );
   }
 }
